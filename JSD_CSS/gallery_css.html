@@ -1,0 +1,88 @@
+<html>
+
+<head>
+    <title> GalleryCSS</title>
+    <style>
+        #Mummy{
+            background-color: darkcyan;
+            display: flex;
+            flex-wrap: wrap;
+            min-height: 200px;
+            gap: 25px;
+            justify-content: center;
+            align-content: center;
+            align-self: center;
+            border: 10px solid red;
+        }
+        .child{
+            
+            min-height: 100px;
+            width: 200px;
+            border: 5px solid black;
+            text-align: center;
+            margin-top: 5px;
+            
+        }
+        .grandchild{
+            background-color: aqua;
+        }
+        .grandchild:hover{
+            border-color: black;
+            background-color: chartreuse;
+            transition: 5s;
+        }
+        .child:nth-child(odd){
+            background-color:rgb(176, 109, 134);
+        }
+        .child:nth-child(even){
+            background-color: blanchedalmond;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="Mummy">
+        <div class="child">
+            <img src="lib_1.jpg" alt="Error" height="100px" width="100px">
+            <h1>Image1</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni quidem eaque sint quia ut debitis placeat
+                odio. Minus at nisi, quos debitis quasi omnis suscipit dignissimos, iusto cumque similique cum!</p>
+                <button class="grandchild">Library</button>
+        </div>
+        <div class="child">
+            <img src="lib_2.jpg" alt="Error" height="100px" width="100px">
+            <h1>Image2</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur tempora similique non et animi
+                sequi, quas illum dicta iste porro, maiores dolorum quam soluta earum a quia dolorem excepturi. Dolores!
+            </p>
+            <button class="grandchild">Library</button>
+        </div>
+        <div class="child">
+            <img src="lib5.jpg" alt="Error" height="100px" width="100px">
+            <h1>Image3</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, ut in! Autem atque delectus, tempora
+                labore debitis ipsam id quaerat fugit, hic nostrum dolorem similique, dolores fugiat placeat totam
+                repellat?</p>
+                <button class="grandchild">Library</button>
+        </div>
+        <div class="child">
+            <img src="lib6.jpg" alt="Error" height="100px" width="100px">
+            <h1>Image4</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod corrupti dolorem tenetur accusantium iusto
+                sit nobis fugit aut laboriosam a voluptate mollitia placeat molestiae repellat quam iure eveniet, id
+                eum.</p>
+                <button class="grandchild">Library</button>
+        </div>
+
+        <div class="child">
+            <img src="lib12.jpg" alt="Error" height="100px" width="100px">
+            <h1>Image5</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident facere quasi doloribus cupiditate nam
+                nesciunt perferendis praesentium pariatur placeat. Provident ducimus, quos nulla similique pariatur amet
+                debitis! Sequi, tempore consequuntur.</p>
+                <button class="grandchild">Library</button>
+        </div>
+</body>
+
+</html>
