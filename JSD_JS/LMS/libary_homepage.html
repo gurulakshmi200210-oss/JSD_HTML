@@ -1,0 +1,139 @@
+<html>
+
+<head>
+    <title> homepage</title>
+    <style>
+        #LMS {
+            background-color: rgb(234, 167, 79);
+            height: 100px;
+            margin: 1px;
+            justify-content: space-between;
+            align-items: center;
+            align-content: center;
+            display: flex;
+
+        }
+
+        .class {
+            height: 300px;
+            width: 300px;
+        }
+
+        .button:hover {
+            background-color: darkgoldenrod;
+            transition: 3s;
+        }
+
+        #s1 {
+            text-align: center;
+            background-image: url("library_iamges/lib5.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100vh;
+            justify-content: center;
+            align-content: center;
+            background-color: rgba(239, 217, 217, 0.5);
+        }
+
+        #Explore {
+            border-radius: 50px;
+            padding: 10px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+        #Explore:hover {
+            transition: 3s;
+            background-color: darkgoldenrod;
+        }
+
+        .Reg {
+            text-align: center;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        .reg {
+            height: auto;
+            width: auto;
+            text-align: center;
+            align-items: center;
+
+        }
+
+        .submit {
+            background-color: lightyellow;
+            border-radius: 50px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+        .submit:hover {
+            transition: 3s;
+            background-color: darkgoldenrod;
+        }
+
+        #foot {
+            background-color: rgb(234, 167, 79);
+            height: 100px;
+            margin: 1px;
+            justify-content: space-around;
+            align-items: center;
+            align-content: center;
+            display: flex;
+        }
+
+        #h6 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="LMS">
+        <div class="title">
+            <h1>Teera's Library </h1>
+        </div>
+        <div class="pags">
+            <button class="button"><a href="home" alt="not found">home</a></button>
+            <button class="button"><a href="contact" alt="not found">login/signup</a></button>
+            <button class="button"><a href="contact" alt="not found">category</a></button>
+            <button class="button"><a href="contact" alt="not found">about</a></button>
+        </div>
+    </div>
+    <section id="s1">
+        <h1>Welcome to E-lib(Teera's LMS)</h1>
+        <p><em><strong>Start Reading Books and Gain Knowledge More!!!</strong></em></p>
+        <button id="Explore">Explore More</button>
+    </section>
+    <section class="Reg">
+        <h1><strong><em>RegistrationForm</em></strong></h1>
+        <form>
+            <input class="reg" type="text" placeholder="Enter the Name">
+            <input class="reg" type="email" placeholder="Enter Mail">
+            <input class="reg" type="text" placeholder="Enter Mobile No"> <br>
+            <button class="submit">submit</button>
+        </form>
+    </section>
+    <footer>
+        <div id="foot">
+            <div>
+                <h3>LMS</h3>
+                <p><em><strong>Start Reading Books and Gain Knowledge More!!!</strong></em></p>
+            </div>
+            <div>
+                <a>Click Links</a><br>
+                <a href="home" alt="not found">home</a><br>
+                <a href="contact">signup/login</a><br>
+                <a href="home" alt="not found">category</a><br>
+                <a href="home" alt="not found">about</a><br>
+            </div>
+        </div>
+        <hr>
+        <h5 id="h6"><strong><em>copyrights &copy;2026</em></strong></h5>
+    </footer>
+</body>
+
+</html>
